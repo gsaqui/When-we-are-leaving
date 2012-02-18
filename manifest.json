@@ -1,0 +1,13 @@
+{
+    "name": "When are we leaving",
+    "version": "1.0",
+    "description": "Show the number of days until we leave",
+    "browser_action": {
+        "tabs": "http://*/*"
+    },
+
+    "background_page": "background.html",
+    "permissions": [
+        "tabs", "http://*/*"
+    ]
+}
